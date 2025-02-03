@@ -1,12 +1,15 @@
-# project name 
+# Readme Generator 
 ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 ## Description
-describe purpose
+To create a readme
 ## Deployed Application URL
-url
+n/a
 ## Screenshot
-![alt-text](ss)
+![alt-text](n/a)
 ## Table of Contents
+
+* [License](#license)
+
 * [Features](#features)
 * [Languages & Dependencies](#languagesanddependencies)
 * [How to Use This Application](#HowtoUseThisApplication)
@@ -14,14 +17,16 @@ url
 * [Testing](#testing)
 * [Questions](#questions)
 ## Features
-this
+stores a readme
 ## Languages & Dependencies
-na
+n/a
+## License
+This project is licensed under the MIT license.
 ## How to Use This Application:
-js
+html, javascript, markdown, nodejs
 ## Contributors
-na
+n/a
 ## Testing
-ok
+n/as
 ## Questions
-Please send your questions [here](mailto:gmail?subject=[GitHub]%20Dev%20Connect) or visit [github/us](https://github.com/us).
+Please send your questions [here](mailto:email@email.com?subject=[GitHub]%20Dev%20Connect) or visit [github/phtmgatt@github.com](https://github.com/phtmgatt@github.com).

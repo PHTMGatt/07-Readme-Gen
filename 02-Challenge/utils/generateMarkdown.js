@@ -36,6 +36,7 @@ ${data.link}
 ## Screenshot
 ![alt-text](${data.screenshot})
 ## Table of Contents
+${renderLicenseLink(data.license)}
 * [Features](#features)
 * [Languages & Dependencies](#languagesanddependencies)
 * [How to Use This Application](#HowtoUseThisApplication)
@@ -46,6 +47,7 @@ ${data.link}
 ${data.features}
 ## Languages & Dependencies
 ${data.require}
+${renderLicenseSection(data.license)}
 ## How to Use This Application:
 ${data.usage}
 ## Contributors
