@@ -1,27 +1,35 @@
-# project name 
-![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
+# ReadMe Gen 
+![GitHub license](https://img.shields.io/badge/license-mit-blue.svg)
 ## Description
-describe purpose
+To create a readme and store it
 ## Deployed Application URL
-url
+https://github.com/PHTMGatt/07-NodeJS.git
 ## Screenshot
-![alt-text](ss)
+![alt-text](n/a)
 ## Table of Contents
+
+* [License](#license)
+
 * [Features](#features)
 * [Languages & Dependencies](#languagesanddependencies)
-* [How to Use This Application](#HowtoUseThisApplication)
+* [How to Use This Application](#howtouse)
 * [Contributors](#contributors)
 * [Testing](#testing)
+* [Walkthrough Video](#walkthrough-video)
 * [Questions](#questions)
 ## Features
-this
+I made it!!
 ## Languages & Dependencies
-na
+node
+## License
+This project is licensed under the MIT license.
 ## How to Use This Application:
-js
+Node / JS / gitignore / readme
 ## Contributors
-na
+n/a
 ## Testing
-ok
+n/a
+## Walkthrough Video
+[Watch here](https://youtu.be/Ka0rxP4GhA0)
 ## Questions
-Please send your questions [here](mailto:gmail?subject=[GitHub]%20Dev%20Connect) or visit [github/us](https://github.com/us).
+Please send your questions [here](mailto:bryguy@gmail.com) or visit [GitHub/PHTMGATT](https://github.com/PHTMGATT).

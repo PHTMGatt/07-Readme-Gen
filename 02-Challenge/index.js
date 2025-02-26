@@ -69,6 +69,11 @@ const questions = [
       name: "test",
       message: "Provide walkthrough of required tests if applicable.",
     },
+    {
+      type: "input",
+      name: "video",
+      message: "Please provide a URL to a video walkthrough of your project.",
+    },
   ];
 
 // TODO: Create a function to write README file
@@ -80,9 +85,12 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((responses) => {
       console.log("Gen README.md File...");
-      writeToFile("./utils/README.md", generateMarkdown({ ...responses }));
+      writeToFile("./README.md", generateMarkdown({ ...responses }));
     });
   }
 
 // Function call to initialize app
 init();
+
+// https://youtu.be/Ka0rxP4GhA0
+// https://github.com/PHTMGatt/07-NodeJS.git
