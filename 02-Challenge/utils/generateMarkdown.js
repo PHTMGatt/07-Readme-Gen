@@ -9,9 +9,13 @@
 // }
 
 function renderLicenseBadge(license) {
+  if (license === "none") {
   const licenseStr = Array.isArray(license) ? license[0] : license; // Ensure it's a string
   return licenseStr !== "none" ? `![GitHub license](https://img.shields.io/badge/license-${licenseStr.toLowerCase().replace(/ /g, "_")}-blue.svg)` : "";
+  }
+  return "";
 }
+
 
 
 
