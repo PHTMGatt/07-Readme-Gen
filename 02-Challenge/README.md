@@ -1,11 +1,11 @@
-# ReadMe Gen 
-![GitHub license](https://img.shields.io/badge/license-mit-blue.svg)
+# title 
+![Github license](https://img.shields.io/badge/license-BSD_3-blue.svg)
 ## Description
-To create a readme and store it
+des
 ## Deployed Application URL
-https://github.com/PHTMGatt/07-NodeJS.git
+url
 ## Screenshot
-![alt-text](n/a)
+![alt-text](path)
 ## Table of Contents
 
 * [License](#license)
@@ -18,18 +18,22 @@ https://github.com/PHTMGatt/07-NodeJS.git
 * [Walkthrough Video](#walkthrough-video)
 * [Questions](#questions)
 ## Features
-I made it!!
+feats
 ## Languages & Dependencies
-node
+dep
 ## License
-This project is licensed under the MIT license.
-## How to Use This Application:
-Node / JS / gitignore / readme
+This project is licensed under the BSD 3 license.
+## Technologies Used:
+langs
 ## Contributors
-n/a
+fasdf
 ## Testing
-n/a
+walk
+## Usage
+usage
+## Installation
+install
 ## Walkthrough Video
-[Watch here](https://youtu.be/Ka0rxP4GhA0)
+[Watch here](video)
 ## Questions
-Please send your questions [here](mailto:bryguy@gmail.com) or visit [GitHub/PHTMGATT](https://github.com/PHTMGATT).
+Please send your questions [here](mailto:em) or visit [GitHub/un](https://github.com/un).

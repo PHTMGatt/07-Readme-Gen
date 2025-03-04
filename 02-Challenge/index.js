@@ -27,10 +27,10 @@ const questions = [
       message: "Please provide a URL where a user can access your deployed application."
     },
     {
-      type: "checkbox",
+      type: "list",
       name: "license",
       message: "Please select a license applicable to this project.",
-      choices: ["MIT", "APACHE2.0", "Boost1.0", "MPL2.0", "BSD2", "BSD3", "none"],
+      choices: ["MIT", "APACHE 2.0", "Boost 1.0", "MPL 2.0", "BSD 2", "BSD 3", "none"],
     },
     {
       type: "input",
@@ -44,7 +44,7 @@ const questions = [
     },
     {
       type: "input",
-      name: "usage",
+      name: "technologies",
       message:
         "State the languages or technologies associated with this project.",
     },
@@ -74,6 +74,17 @@ const questions = [
       name: "video",
       message: "Please provide a URL to a video walkthrough of your project.",
     },
+    {
+      type: "input",
+      name: "usage",
+      message: "Please provide usage.",
+    },
+    {
+      type: "input",
+      name: "installation",
+      message: "Please provide installation.",
+    },
+
   ];
 
 // TODO: Create a function to write README file
@@ -84,7 +95,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((responses) => {
-      console.log("Gen README.md File...");
+      console.log("Gen README.md File...", responses.usage);
       writeToFile("./README.md", generateMarkdown({ ...responses }));
     });
   }
