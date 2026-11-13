@@ -25,9 +25,8 @@ The tool writes `README.md` into the folder you run it from, **replacing any REA
 
 There is no automated test suite.
 
-## Known rough edges
+## Known rough edge
 
-- Choosing the license `none` leaves the word `undefined` in the output, because the license section returns nothing for that case.
 - The section anchors in the generated table of contents do not all match their headings.
 
 ## What I learned / built
