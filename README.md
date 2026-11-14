@@ -21,7 +21,12 @@ npm install
 npm start
 ```
 
-The tool writes `README.md` into the folder you run it from, **replacing any README already there**. Run it from an empty or scratch folder, or copy your existing README first.
+The tool writes `README.md` into the current working directory, **replacing any README already there**. `npm start` always runs from this project's folder, so it overwrites this repo's own README. To generate a README somewhere else, run the tool from that folder instead:
+
+```bash
+cd path/to/your-project
+node path/to/07-Readme-Gen/index.js
+```
 
 There is no automated test suite.
 
