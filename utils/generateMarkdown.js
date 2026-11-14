@@ -25,7 +25,9 @@ function renderLicenseSection(license) {
   if (license !== "none") {
     return `## License
 This project is licensed under the ${license} license.`;
-  }}
+  }
+  return "";
+}
 
 
 // TODO: Create a function to generate markdown for README
