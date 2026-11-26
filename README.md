@@ -2,6 +2,10 @@
 
 A small Node.js command-line tool that asks you questions about a project and writes a formatted `README.md` from your answers.
 
+## Status
+
+Coursework project. Checked 2026-11-26 on Windows with Node 26. `npm ci` succeeds and the tool starts and shows its first prompt; a full question run was not repeated. No automated tests.
+
 ## What it does
 
 - **Asks 15 questions** with Inquirer: title, description, screenshot path, deployed link, license, dependencies, features, technologies, GitHub username, email, contributors, testing, video link, usage and installation.
